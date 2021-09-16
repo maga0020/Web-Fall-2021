@@ -1,0 +1,37 @@
+  h1{
+    font-size: 50px;
+    color: red;
+  }
+
+
+
+  h1{
+    : black;
+  }
+
+  body{
+    font-familt: helvetica
+    background-color: black;
+    color: white;
+  }
+  ul {
+    color: red;
+    font-family: Arial;
+    font-weight: 600;
+  }
+
+  img {
+    width: 25vw;
+    margin: 20px;
+  }
+
+  form{
+    margin-left: 20px;
+    font-size: 3vw;
+  }
+
+  #top h1{
+    color: rgb(255,200,255);
+    border: solid .5px white;
+    border-radius: 10px;
+  }
