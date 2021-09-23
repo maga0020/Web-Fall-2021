@@ -12,8 +12,25 @@ h1{
 
 img {
   display: block;
-  width: 60%;
+  width: 40%;
   margin-left: auto;
   margin-right: auto;
-  border: dotted 4px #FFEA2D
+  border: dotted 5px #FFEA2D
+}
+
+h2 {
+  display: block;
+  color: #DFDCC3
+  font-family: Fjalla One;
+  font-weight: 300;
+  background-color: #3F99CB
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h3 {
+  color: #053A53
+  font-family: Fjalla One;
+  font-weight: 400;
+  text-align: right;
 }
