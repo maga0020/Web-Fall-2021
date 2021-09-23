@@ -4,3 +4,9 @@ h1{
   font-family: Fjalla One;
   font-weight: 600;
 }
+
+img {
+  width: 25vw;
+  margin: 20px;
+  border: dotted .5px #FFEA2D
+}
