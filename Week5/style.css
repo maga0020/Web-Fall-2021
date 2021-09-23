@@ -1,0 +1,56 @@
+ body {
+   font-family: arial;
+   font-size: 2vw;
+   border: solid rgb(100,100,100) 1px;
+ }
+
+ p {
+   color: rgb(100,100,100);
+ }
+
+ h1{
+   background-color:rgb(200,200,0);
+   margin-left: 25px;
+ }
+
+ #second{
+   font-weight:bold;
+ }
+
+ h1{
+   border: solid grey 1px;
+ }
+
+ .grey{
+   color: rgb(100, 100, 100);
+ }
+
+ .background{
+   background-color: rgb(225, 225, 225);
+ }
+
+ p.background{
+   color: red;
+ }
+
+ span{
+   color: red;
+   font-weight: bold;
+ }
+
+ #sit{
+   font-family:  cursive;
+ }
+
+ #two{
+   border: solid black 1px;
+   background-color: blue;
+   /* padding: top  right bottom left 10vw;*/
+   padding: 30px 0px 30px 0px;
+   margin: 0px 30px 0px 30px;
+ }
+
+ section{
+   border: solid black 1px;
+   margin: 10px
+ }
