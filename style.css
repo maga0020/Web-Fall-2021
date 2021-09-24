@@ -18,19 +18,60 @@ img {
   border: dotted 5px #FFEA2D
 }
 
-h2 {
+#Work {
   display: block;
-  color: #DFDCC3
+  color: #DFDCC3;
   font-family: Fjalla One;
-  font-weight: 300;
-  background-color: #3F99CB
+  font-weight: 200;
+  background-color: #3F99CB;
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
+}
+
+span {
+  font-size: 22px;
+  font-weight: 400;
 }
 
 h3 {
-  color: #053A53
+  color: #053A53;
+  font-family: Fjalla One;
+  font-size: 20px;
+  text-align: left;
+}
+
+#AboutMe {
+  color: #053A53;
+  font-family: Fjalla One;
+  font-weight: 400;
+  text-alight: left;
+}
+
+h4 {
+  color: #053A53;
+  font-family: Fjalla One;
+  font-size: 20px;
+  text-align: right;
+}
+
+#Who {
+  color: #053A53;
   font-family: Fjalla One;
   font-weight: 400;
   text-align: right;
+}
+
+h5 {
+  color: #3F99CB;
+  font-family: Fjalla One;
+  font-size: 20px;
+  text-align: center;
+}
+
+#Goals {
+  color: #053A53;
+  font-family: Fjalla One;
+  text-align: center;
+  border: solid 1px #053A53;
 }
