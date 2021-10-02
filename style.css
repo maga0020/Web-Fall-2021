@@ -104,10 +104,10 @@ h5 {
   background-color: #053A53;
 }
 
-#Goals, p {
+#Goals {
+  color: white;
   background-color: #053A53;
   margin-left: 20
-  color: white;
   font-family: Fjalla One;
   text-align: center;
   padding: 5px
