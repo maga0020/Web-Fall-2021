@@ -1,29 +1,63 @@
 body {
-  background-color: #DFDCC3
+  background-color: #ffffff;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='102' height='102' viewBox='0 0 100 100'%3E%3Cg stroke='%23FFEA2D' stroke-width='0' stroke-opacity='0.61'%3E%3Crect fill='%23FFEA7C' x='-60' y='-60' width='111' height='240'/%3E%3C/g%3E%3C/svg%3E");
 }
 
-
 h1{
-  color: #053A53;
+  color: white;
   font-family: Fjalla One;
   font-weight: 600;
   text-align: center;
 }
 
-img {
+/* #Header {
+  width:100vw;
+  height: 60vh
+  overflow: hidden;
+  margin: 0px;
+  padding: 0px;
+} */
+
+/* #Header img {
+  width: 99%;
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+  /* position: relative; */
+  /* width: 60vw;
+  position: relative;
+  bottom: 40px;
+  right: 200px;
+  height: 40vh */
+  /* background-size: cover;
+  background-position: center center;
+  min-height: 300px;
+  margin: 0px */
+
+#MokuSurf img {
+  width: 40vw;
+  border: solid #053A53;
   display: block;
-  width: 40%;
   margin-left: auto;
   margin-right: auto;
-  border: dotted 5px #FFEA2D
+  width: 50%;
+}
+
+#Header h1 {
+  z-index: 1;
+  position:relative;
+  font-size: 5vw;
+  top: 0vh;
+  margin: 0 0 0 0vw;
+  background-color: #053A53
 }
 
 #Work {
-  display: block;
-  color: #DFDCC3;
+  /* display: block; */
+  color: #053A53;
   font-family: Fjalla One;
   font-weight: 200;
-  background-color: #3F99CB;
+  background-color: #DFDCC3;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -63,15 +97,18 @@ h4 {
 }
 
 h5 {
-  color: #3F99CB;
+  color: white;
   font-family: Fjalla One;
   font-size: 20px;
   text-align: center;
+  background-color: #053A53;
 }
 
 #Goals {
-  color: #053A53;
+  background-color: #053A53;
+  color: white;
   font-family: Fjalla One;
   text-align: center;
-  border: solid 1px #053A53;
+  padding: 5px
+  /* border: solid 1px #053A53; */
 }
