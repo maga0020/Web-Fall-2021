@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Spooky Site</title>
+  <link rel="stylesheet" href="interactivestyle.css">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<section>
+  <h1 id="title1">Welcome to The Joker</h1>
+  <button id="spell">If You Dare...</button>
+</section>
+
+
+<script>
+  const quotes = ["I Put A Spell On You!"]
+  let quotecount = 0;
+
+  document.getElementById("spell").addEventListener("click", buttonClicked);
+
+  function buttonClicked(){
+    console.log(quotes[quotecount]);
+    document.getElementById("title").innerHTML = quotes[quotecount];
+    if(quotecount>=5){
+      quotecount = 0;
+    }else{
+      quotecount++;
+    }
+  }
+</script>
+
+</body>
+</html>
