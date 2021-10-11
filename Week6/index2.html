@@ -2,27 +2,41 @@
 <html lang="en">
 <head>
   <title>Spooky Site</title>
-  <link rel="stylesheet" href="interactivestyle.css">
-  <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style2.css">
+  <link href="https://fonts.googleapis.com/css2?family=Butcherman&display=swap" rel="stylesheet">
 </head>
 <body>
 
-<section>
-  <h1 id="title1">Welcome to The Joker</h1>
-  <button id="spell">If You Dare...</button>
+<section id="dare">
+  <h1>Welcome to The Joker</h1>
+</section>
+
+<section id="joker">
+  <h2>I Would Listen...<h2>
+  <button id="mrjoker">Push Me</button>
+</section>
+
+<script>
+  console.log("javascript working");
+  document.getElementById("mrjoker").addEventListener("click",function(){alert("Hopefully you hate the below jokes. Mwah hah hah")})
+</script>
+
+<section id="jokes">
+  <h3 id="ftext">Press the Button! Press the Button!</h3>
+  <button id="cackle">If You Dare Cackle...</button>
 </section>
 
 
 <script>
-  const quotes = ["I Put A Spell On You!"]
+  const quotes = ["Where does a GHOST go on vacation?","Mali-BOO!","How do VAMPIRES get around on Halloween","On BLOOD Vessels","What do SKELETONS order at a restaurant?","Spare Ribs","What do you call a WITCHES garage?","A BROOM closet"];
   let quotecount = 0;
 
-  document.getElementById("spell").addEventListener("click", buttonClicked);
+  document.getElementById("cackle").addEventListener("click", buttonClicked);
 
   function buttonClicked(){
     console.log(quotes[quotecount]);
-    document.getElementById("title").innerHTML = quotes[quotecount];
-    if(quotecount>=5){
+    document.getElementById("ftext").innerHTML = quotes[quotecount];
+    if(quotecount>=7){
       quotecount = 0;
     }else{
       quotecount++;
