@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Guess The Movie</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<section id="intro">
+  <h1>Flick Frenzy</h1>
+  <p>Directions: A famous movie quote will appear. Guess the flick.</p>
+</section>
+
+<section id="button">
+  <h2 id="ftext">Show Biz Bliss</h2>
+  <button id="action">3..2..1..Action!</button>
+</section>
+
+<script>
+  const quotes = ["Toto, I've a feeling we're not in Kansas anymore","The Wizard of Oz","May the Force be with You","Star Wars","Here's Johnny!","The Shining","Yo, Adrian","Rocky","I'm the king of the world!","The Titanic","You're killin' me, Smalls.","The Sandlot"];
+  let quotecount = 0;
+
+  document.getElementById("action").addEventListener("click",buttonClicked);
+
+  function buttonClicked(){
+    console.log(quotes[quotecount]);
+    document.getElementbyId("ftext").innerHTML = quotes[quotecount];
+    if(quotecount>=11){
+      quotecount = 0
+    }else{
+      quotecount++;
+    }
+  }
+  </script>
+
+
+
+</body>
+</html>
