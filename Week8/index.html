@@ -3,24 +3,25 @@
 <head>
   <title>Guess The Movie</title>
   <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Limelight&display=swap" rel="stylesheet">
 </head>
 <body>
 
 <section id="intro">
   <h1>Flick Frenzy</h1>
-  <p>Directions: A famous movie quote will appear. Guess the flick.</p>
 </section>
 
-<section id="button">
+<!-- <div class="filmstrip"> -->
+<section id="quotesection">
   <h2 id="ftext">Show Biz Bliss</h2>
-  <button id="action">3..2..1..Action!</button>
+  <button id="newquote">3..2..1..Action!</button>
 </section>
 
 <script>
   const quotes = ["Toto, I've a feeling we're not in Kansas anymore","The Wizard of Oz","May the Force be with You","Star Wars","Here's Johnny!","The Shining","Yo, Adrian","Rocky","I'm the king of the world!","The Titanic","You're killin' me, Smalls.","The Sandlot"];
   let quotecount = 0;
 
-  document.getElementById("action").addEventListener("click",buttonClicked);
+  document.getElementById("newquote").addEventListener("click",buttonClicked);
 
   function buttonClicked(){
     console.log(quotes[quotecount]);
@@ -32,7 +33,7 @@
     }
   }
 </script>
-
+<!-- </div> -->
 
 
 </body>
