@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Guess The Movie</title>
+  <title>Spooky Site</title>
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css2?family=Limelight&display=swap" rel="stylesheet">
 </head>
@@ -11,30 +11,30 @@
   <h1>Flick Frenzy</h1>
 </section>
 
-<!-- <div class="filmstrip"> -->
-<section id="quotesection">
-  <h2 id="ftext">Show Biz Bliss</h2>
-  <button id="newquote">3..2..1..Action!</button>
+<div class="filmstrip">
+<section id="quotes">
+  <h3 id="ftext">Show Biz Bliss</h3>
+  <button id="action">Action</button>
 </section>
 
+
 <script>
-  const quotes = ["Toto, I've a feeling we're not in Kansas anymore","The Wizard of Oz","May the Force be with You","Star Wars","Here's Johnny!","The Shining","Yo, Adrian","Rocky","I'm the king of the world!","The Titanic","You're killin' me, Smalls.","The Sandlot"];
+  const quotes = ["Here's Johnny","-The Shining","You're killin' me, Smalls","-The Sandlot","I'm the king of the world!","-Titanic","Toto, I've a feeling we're not in Kansas anymore","-The Wizard of Oz"];
   let quotecount = 0;
 
-  document.getElementById("newquote").addEventListener("click",buttonClicked);
+  document.getElementById("action").addEventListener("click", buttonClicked);
 
   function buttonClicked(){
     console.log(quotes[quotecount]);
-    document.getElementbyId("ftext").innerHTML = quotes[quotecount];
-    if(quotecount>=11){
-      quotecount = 0
+    document.getElementById("ftext").innerHTML = quotes[quotecount];
+    if(quotecount>=7){
+      quotecount = 0;
     }else{
       quotecount++;
     }
   }
 </script>
-<!-- </div> -->
-
+</div>
 
 </body>
 </html>
