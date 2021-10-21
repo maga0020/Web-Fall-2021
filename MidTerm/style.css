@@ -1,0 +1,13 @@
+body{
+  background-color: #F2E6D8;
+}
+
+h1 {
+  color: #593E2E;
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 275px;
+  font-weight: bold;
+  letter-spacing: -1px;
+  line-height: 1;
+  text-align: center;
+}
