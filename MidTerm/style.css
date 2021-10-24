@@ -1,13 +1,66 @@
 body{
+  /* background: linear-gradient(-45deg, #FCFFF5, #91AA9D); */
+  background: linear-gradient(-45deg, #593122, #0D0D0D);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
   background-color: #F2E6D8;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 h1 {
-  color: #593E2E;
-  font-family: 'Helvetica Neue', sans-serif;
-  font-size: 200px;
+  color: white;
+  font-family: 'Reenie Beanie', cursive;
+  font-size: 50px;
   font-weight: bold;
-  letter-spacing: -1px;
+  letter-spacing: 8px;
   line-height: 1;
-  text-align: center;
+  text-align: left;
+  margin-left: 20px;
+}
+
+.zoom-in-out-circle {
+  margin: 24px;
+  width: 100px;
+  height: 100px;
+  background: #D9B29C;
+  opacity: 40%;
+  border-radius: 50%;
+  margin-left: 450px;
+  margin-top: 100px;
+  animation: zoom-in-zoom-out 10s ease infinite;
+
+}
+
+@keyframes zoom-in-zoom-out {
+  0% {
+    transform: scale(1, 1);
+  }
+  50% {
+    transform: scale(1.5, 1.5);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+
+#wisewords {
+  font-family: 'Zen Kurenaido', sans-serif;
+  font-size: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  color: white;
 }
