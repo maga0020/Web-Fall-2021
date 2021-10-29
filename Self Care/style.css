@@ -83,7 +83,7 @@ h2 {
   text-align: center;
 }
 
-#Day2menu #Day3menu, #Day4menu, #Day5menu, #Day6menu, #Day7menu{
+#Day2menu, #Day3menu, #Day4menu, #Day5menu, #Day6menu, #Day7menu{
   display: none;
 }
 
@@ -92,11 +92,11 @@ h2 {
   border-bottom; none;
 }
 
-
+/*
 img{
   width: 20%
   max-height: 20%
   object-fit: cover;
   display: block;
   margin: auto;
-}
+} */
