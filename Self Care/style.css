@@ -58,20 +58,22 @@ h1 {
 #items{
   display: flex;
   margin-top: 0vh 10vw 0 10vw;
+  padding-top: 80px;
+  border: 1px solid #aaa;
+  border-top: none;
 }
 
 .day{
   flex-grow: 1;
-  background-color: white;
   width: auto;
-  border: 1px solid black;
+  border: 1px solid #aaa;
+  background-color: white;
 }
 
 #image, .menu{
   flex-grow: 1;
   width: auto;
-  background-color: white;
-  border: 1px solid black;
+  max-width: 50%
 }
 
 h2 {
@@ -81,10 +83,20 @@ h2 {
   text-align: center;
 }
 
-#day2menu{
+#Day2menu #Day3menu, #Day4menu, #Day5menu, #Day6menu, #Day7menu{
   display: none;
 }
 
 .active{
-  background-color: green;
+  background-color: white;
+  border-bottom; none;
+}
+
+
+img{
+  width: 20%
+  max-height: 20%
+  object-fit: cover;
+  display: block;
+  margin: auto;
 }

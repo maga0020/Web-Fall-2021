@@ -1,6 +1,6 @@
-let days = ["Day 1","Day 2","Day 3","Day 4","Day 5","Day 6","Day 7"];
+let days = ["Day1","Day2","Day3","Day4","Day5","Day6","Day7"];
 let images = ["day1.jpeg", "day2.jpeg"];
-let prevmenu;
+let prevday;
 
 for (i=0; i<document.getElementsByClassName("day").length; i++){
   document.getElementsByClassName("day")[i].innerHTML = "<h2>" + days[i] + "</h2>";
@@ -10,25 +10,31 @@ for (i=0; i<document.getElementsByClassName("day").length; i++){
   document.getElementsByClassName("day")[i].id = days[i];
 }
 
+
+document.getElementById('Day1').classList.toggle('active');
+document.getElementById("image").innerHTML = "<img src=assets/" + images[0] + "' >";
+
 function setActive(e){
 
+prevday = document.getElementsByClassName("active")[0].id;
+if(prevday != undefined){
+    document.getElementById(prevday).classList.toggle("active");
+    document.getElementById(prevday +"menu").style.display = "none";
 
-  prevmenu = document.getElementsByClassName("active")[0].id;
-  if(prevmenu != undefined){
-    document.getElementById(prevmenu).classList.toggle("active");
-  }
+}
+
   // console.log("previous menu: " + prevmenu);
   // prevmenu.classList.toggle('active');
 
-  console.log(e.target.innerHTML);
-
   if(e.target.tagName == "H2"){
-    console.log("h2 clicked");
     e.target.parentNode.classList.toggle("active");
   }else{
-    console.log("div clicked");
     e.target.classList.toggle("active");
   }
 
+meal = document.getElementsByClassName('active')[0].id;
+ console.log(day);
+ document.getElementById(day +"menu").style.display = "block";
+ document.getElementById('image').innerHTML = "<img src='assets/" + day + ".jpeg' >";
 
 }
