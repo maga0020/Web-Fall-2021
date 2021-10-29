@@ -1,46 +1,39 @@
 body{
-  /* background: linear-gradient(-45deg, #FCFFF5, #91AA9D); */
-  background: linear-gradient(-45deg, #593122, #0D0D0D);
-  background-size: 400% 400%;
-  animation: gradient 15s ease infinite;
   background-color: #F2E6D8;
-  margin: 0;
-  padding: 0;
-  border: 0;
+  /* background-image: url("assets/solo.webp"); */
+  background-repeat: no-repeat;
+  background-position: top;
+  background-position: right;
 }
 
-@keyframes gradient {
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0% 50%;
-    }
+#wisewords {
+  font-family: 'Zen Kurenaido', sans-serif;
+  font-size: 20px;
+  margin-left: 20px;
+  color: black;
 }
 
 h1 {
-  color: white;
+  color: black;
   font-family: 'Reenie Beanie', cursive;
-  font-size: 50px;
+  font-size: 100px;
   font-weight: bold;
   letter-spacing: 8px;
   line-height: 1;
-  text-align: left;
-  margin-left: 20px;
+  text-align: center;
+  margin-top: 100px;
 }
 
 .zoom-in-out-circle {
   margin: 24px;
   width: 100px;
   height: 100px;
-  background: #D9B29C;
-  opacity: 40%;
+  background: white;
+  opacity: 100%;
   border-radius: 50%;
-  margin-left: 450px;
-  margin-top: 100px;
+  margin-top: 0p;
+  margin-left: auto;
+  margin-right: auto;
   animation: zoom-in-zoom-out 10s ease infinite;
 
 }
@@ -57,10 +50,41 @@ h1 {
   }
 }
 
-#wisewords {
-  font-family: 'Zen Kurenaido', sans-serif;
-  font-size: 20px;
-  margin-left: 20px;
-  margin-right: 20px;
-  color: white;
+#tabs{
+  display: flex;
+  margin: 25vh 10vw 0 10vw;
+}
+
+#items{
+  display: flex;
+  margin-top: 0vh 10vw 0 10vw;
+}
+
+.day{
+  flex-grow: 1;
+  background-color: white;
+  width: auto;
+  border: 1px solid black;
+}
+
+#image, .menu{
+  flex-grow: 1;
+  width: auto;
+  background-color: white;
+  border: 1px solid black;
+}
+
+h2 {
+  margin-top: 28px;
+  padding-bottom: 0;
+  font-size: 120%;
+  text-align: center;
+}
+
+#day2menu{
+  display: none;
+}
+
+.active{
+  background-color: green;
 }
