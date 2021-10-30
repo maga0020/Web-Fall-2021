@@ -1,5 +1,5 @@
 let days = ["Day1","Day2","Day3","Day4","Day5","Day6","Day7"];
-let images = ["day1.jpeg", "day2.jpeg"];
+// let images = ["day1.jpeg", "day2.jpeg"];
 let prevday;
 
 for (i=0; i<document.getElementsByClassName("day").length; i++){
@@ -16,7 +16,7 @@ document.getElementById("image").innerHTML = "<img src=assets/" + images[0] + "'
 
 function setActive(e){
 
-day = document.getElementsByClassName("active")[0].id;
+prevday = document.getElementsByClassName("active")[0].id;
 if(prevday != undefined){
     document.getElementById(prevday).classList.toggle("active");
     document.getElementById(prevday +"menu").style.display = "none";
@@ -32,9 +32,9 @@ if(prevday != undefined){
     e.target.classList.toggle("active");
   }
 
-meal = document.getElementsByClassName('active')[0].id;
+day = document.getElementsByClassName('active')[0].id;
  console.log(day);
  document.getElementById(day +"menu").style.display = "block";
- document.getElementById('image').innerHTML = "<img src='assets/" + day + ".jpeg' >";
+ // document.getElementById('image').innerHTML = "<img src='assets/" + day + ".jpeg' >";
 
 }
