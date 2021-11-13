@@ -1,37 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Spooky Site</title>
-  <link rel="stylesheet" href="style2.css">
+  <title>Almost Vogue</title>
+  <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css2?family=Butcherman&display=swap" rel="stylesheet">
 </head>
 <body>
 
-<section id="dare">
-  <h1>Welcome to The Joker</h1>
+<section id="fashion">
+  <h2>VOGUE. TREND. CRAZE. RAGE. MANIA. MODE. FAD. FANCY. CHIC. IN. STAPLE. LOOK. STYLE.</h2>
+  <h1>FASHION FRENZY</h1>
 </section>
 
-<section id="joker">
-  <h2>I Would Listen...</h2>
-  <button id="mrjoker">Push Me</button>
+<section id="reality">
+  <button id="tip">#1 TIP</button>
 </section>
 
 <script>
   console.log("javascript working");
-  document.getElementById("mrjoker").addEventListener("click",function(){alert("Madness, as you know, is a lot like gravity, all it takes is a little push.")})
+  document.getElementById("tip").addEventListener("click",function(){alert("Fashion should be a form of escapism, and not a form of imprisonment.")})
 </script>
 
 <section id="jokes">
-  <h3 id="ftext">Press the Button! Press the Button!</h3>
-  <button id="cackle">If You Dare Cackle...</button>
+  <h3 id="ftext">The More You Know</h3>
+  <button id="new">NEW NEW</button>
 </section>
 
 
 <script>
-  const quotes = ["Where does a GHOST go on vacation?","Mali-BOO!","How do VAMPIRES get around on Halloween","On BLOOD Vessels","What do SKELETONS order at a restaurant?","Spare Ribs","What do you call a WITCHES garage?","A BROOM closet"];
+  const quotes = ["Add a Belt.","Play with Color.","Staple Pieces = Key.","Mix patterns and textures.","Balance Proportions.","Develop a signature style.","Don't be too matchy matchy.","Never follow trends blindly."];
   let quotecount = 0;
 
-  document.getElementById("cackle").addEventListener("click", buttonClicked);
+  document.getElementById("new").addEventListener("click", buttonClicked);
 
   function buttonClicked(){
     console.log(quotes[quotecount]);
@@ -43,6 +43,33 @@
     }
   }
 </script>
+
+<div class="row">
+  <div class="column">
+    <img src="adele.jpg">
+    <img src="amanda.jpg">
+    <img src="bella.jpg">
+    <img src="bieber.jpg">
+    <img src="harry.jpg">
+    <img src="rihanna.jpg">
+  </div>
+  <div class="column">
+    <img src="florence.jpg">
+    <img src="kaia.jpg">
+    <img src="simone.jpg">
+    <img src="billie.jpg">
+    <img src="amanda.jpg">
+    <img src="florence.jpg">
+  </div>
+  <div class="column">
+    <img src="lorde.jpg">
+    <img src="queen.jpg">
+    <img src="malala.jpg">
+    <img src="zendaya.jpg">
+    <img src="selena.jpg">
+    <img src="naomi.jpg">
+    <img src="paris.jpg">
+  </div>
 
 </body>
 </html>
