@@ -1,0 +1,263 @@
+#logo{
+  width: 90px;
+  height: 50px;
+  margin-bottom: -20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+h1{
+  margin-top: 10px;
+  font-size: 50px;
+  text-align: center;
+  font-family: verveine, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#insta{
+  width: 45px;
+  float: right;
+}
+
+#depop{
+  width: 34px;
+  float: right;
+}
+
+#linkedin{
+  width: 32px;
+  float: right;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding:0;
+  overflow: hidden;
+  display: flex;
+}
+
+hr{
+  border-top: 3px solid #354C9A;
+}
+
+li {
+  margin: auto;
+  text-align: center;
+  font-family: didot;
+  font-size: 18px;
+}
+
+li a {
+  background-color: #ffffff;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #000000;
+  color: white;
+}
+
+#collage1 {
+  width: 710px;
+  height: 480px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: left;
+}
+
+#collage2 {
+  width: 710px;
+  height: 480px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: right;
+}
+
+#cover{
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+.MMADWORN{
+  font-family: verveine; sans-serif;
+  font-size: 20pt;
+}
+
+#phrase{
+  text-align: center;
+  font-size: 15pt;
+  font-family: didot;
+  margin-top: auto;
+}
+/* #checker {
+  width: 460px;
+  height: 420px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+} */
+
+/* #tea {
+  width: 380px;
+  height: 420px;
+  display: block;
+  margin-left: 474px;
+  text-align: right;
+} */
+
+.inline-flex {
+   display: inline-flex;
+}
+
+.inline-flex2{
+  display: inline-flex;
+  float: right;
+}
+
+#linklogo{
+  text-decoration: none;
+}
+
+.sandy {
+  /* background-image:
+  linear-gradient(45deg, #000000 25%, transparent 25%),
+  linear-gradient(135deg, #000000 25%, transparent 25%),
+  linear-gradient(45deg, transparent 75%, #000000 75%),
+  linear-gradient(135deg, transparent 75%, #000000 75%);
+background-size:80px 80px; /* Must be a square */
+/* background-position:0 0, 12.5px 0, 12.5px -12.5px, 0px 12.5px; /* Must be half of one side of the square */
+background-color: #ffffff;
+}
+
+#about {
+  margin-top: 10px;
+  font-size: 30px;
+  text-align: center;
+  font-family: verveine, sans-serif;
+}
+
+a:visited{
+  color: black;
+}
+/*
+a:link{
+
+}
+
+a:hover{
+
+}
+
+a:active{
+
+}
+ */
+
+ #description{
+   text-align: center;
+   font-family: didot;
+   font-color: black;
+   font-size: 12pt;
+   margin-right: 30pt;
+   margin-left: 30pt;
+ }
+
+ #description2{
+   text-align: center;
+   font-family: didot;
+   font-color: black;
+   font-size: 12pt;
+   margin-right: 30pt;
+   margin-left: 30pt;
+ }
+
+ .MADWORN{
+   font-family: verveine; sans-serif;
+   font-size: 20pt;
+ }
+
+ .grid {
+   display: grid;
+   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+   grid-gap: 20px;
+   /* align-items: stretch; */
+   }
+
+ .grid img {
+   border: 1px solid #ccc;
+   box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+   max-width: 100%;
+ }
+
+ #demo{
+   text-align: center;
+   color: black;
+ }
+
+
+
+
+
+
+
+
+ .map{
+   display: block;
+   text-align: center;
+   /* background-image:
+   linear-gradient(45deg, #000000 25%, transparent 25%),
+   linear-gradient(135deg, #000000 25%, transparent 25%),
+   linear-gradient(45deg, transparent 75%, #000000 75%),
+   linear-gradient(135deg, transparent 75%, #000000 75%);
+ background-size: 25px 25px;
+ background-position:0 0, 12.5px 0, 12.5px -12.5px, 0px 12.5px;
+ margin-bottom: -6%; */
+ }
+
+
+
+
+
+
+
+#phone {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+  text-align: center;
+  width: 90px;
+}
+
+#mail {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+  text-align: center;
+  width: 90px;
+}
+
+#details{
+    font-family: didot;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-size: 22px;
+}
